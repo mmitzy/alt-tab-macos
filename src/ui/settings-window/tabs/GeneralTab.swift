@@ -92,7 +92,7 @@ class GeneralTab {
     }
 
     @objc static func checkForUpdatesNow(_ sender: Any?) {
-        SUUpdater.shared().checkForUpdates(sender)
+        // SUUpdater.shared().checkForUpdates(sender)
     }
 
     private static func exportSettings() {
