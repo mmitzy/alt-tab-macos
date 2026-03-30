@@ -20,16 +20,16 @@
     "format:check": "node scripts/swiftformat.js --lint"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
+    "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^8.1.0",
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "fontkit": "^1.8.0",
-    "glob": "^10.0.0",
+    "glob": "^12.0.0",
     "husky": "^3.0.4",
     "lint-staged": "^13.0.0",
     "marked": "^0.8.0",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^25.0.3"
   },
   "engines": {
     "node": ">=18.0.0"
